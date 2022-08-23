@@ -1,0 +1,22 @@
+.text {
+    max-width: 1000px;
+    padding: 20px 30px;
+    margin: 50px auto;
+    border-width: 2px;
+    border-color: red;
+    border-style: solid;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    box-shadow: 10px -5px 10px 0px #B884D8;
+    text-align: center;
+    background-color:white;
+}
+.interesting {
+    font-weight: bold;
+    text-decoration: underline;
+}
+img.photo {
+margin: 0px auto;
+display: block;
+}

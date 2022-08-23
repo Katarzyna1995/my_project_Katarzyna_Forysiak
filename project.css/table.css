@@ -1,0 +1,24 @@
+.table {
+    font-family: 'Lato', sans-serif;
+    border-collapse: collapse;
+    margin: 50px auto;
+}
+.table__caption {
+    caption-side: bottom;
+    text-align: right;
+    margin-top: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 20px;
+}
+.table__cell {
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+    line-height: 1.5;
+    background-color: azure;
+}
+.table__cell--header {
+    background-color: aquamarine;
+    box-shadow: inset 40px -5px 69px -21px #63135A;
+}

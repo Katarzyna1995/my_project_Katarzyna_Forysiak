@@ -1,0 +1,43 @@
+.aside {
+    max-width: 1000px;
+    margin: 10px auto;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    line-height: 1;
+    padding: 5px 5px;
+}
+.aside__header{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+}
+.aside__unlist {
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    padding: 5px 5px;
+    line-height: 2;
+}
+.aside__link {
+    color: crimson;
+    text-decoration: none;
+    font-size: medium;
+}
+/* pseudoklasa - stylowanie linków */
+.aside__link:visited {                    
+    color: darkred;
+}
+/* pseudoklasa - stylowanie linków */
+.aside__link:focus {
+    outline: 2px solid currentColor;
+}
+/* pseudoklasa - stylowanie linków */
+.aside__link:hover {
+    color: red;
+    border-bottom: 1px solid;
+    outline: none;
+}
+/* pseudoklasa - stylowanie linków */
+.aside__link:active {
+    color: rgb(0, 17, 255);
+}

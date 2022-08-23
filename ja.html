@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To ja</title>
+    <!-- link do normalize.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="project.css/style.css" rel="stylesheet">
+    <link href="project.css/additional.css" rel="stylesheet">
+    <link href="project.css/aside.css" rel="stylesheet">
+    <link href="project.css/button.css" rel="stylesheet">
+    <link href="project.css/container.css" rel="stylesheet">
+    <link href="project.css/footer.css" rel="stylesheet">
+    <link href="project.css/navigation.css" rel="stylesheet">
+    <link href="project.css/table.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Send+Flowers&display=swap" rel="stylesheet">
+    <script defer src="project.js/script.js"></script>
+</head>
+<body>
+    <header class="body__header">
+        Katarzyna Forysiak
+    </header>
+    <!-- konwencja BEM - pozwala zapanować nad bałaganem w CSS -->
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__item"><a href="#Kilka_słów_o_mnie" class="navigation__link">Kilka słów o mnie</a></li>
+            <li class="navigation__item"><a href="#Moje_ulubione_filmy" class="navigation__link">Moje ulubione filmy</a></li>
+            <li class="navigation__item"><a href="#Moje_ulubione_książki" class="navigation__link">Moje ulubione książki</a></li>
+            <li class="navigation__item"><a href="#Powiązane_linki" class="navigation__link">Powiązane linki</a></li>
+        </ul>
+    </nav>
+    <main>
+        <p>
+            <a href="https://ibb.co/6H2rgjj">
+                <img width="300" height="300" src="https://i.ibb.co/X79jScc/20200801-174603.jpg" alt="Katarzyna Forysiak" class="photo"></a>
+        </p>
+        <p>
+            <button class="button">Wyświetl zdjęcie</button>
+        </p>
+        <p class="text" id="Kilka_słów_o_mnie">
+            <span class="interesting">Kilka słów o mnie</span><br>
+            Nazywam się Katarzyna Forysiak. Pochodzę z Mazur, ale od około 8 lat mieszkam w Gdańsku.
+            Ukończyłam studia na Politechnicę Gdańskiej, a obecnie kontynuuję tam swoją przygodę :D.
+            Lubię czytać książki kryminalne oraz psychologiczne. Moim ulubionem autorem książek kryminalnych jest <span
+                class="interesting"> Maxime Chattam. </span>
+            Jestem również fanką filmów z serii Marvela. Mam ukochane dwa chomiczki, które nazywają się: <span
+                class="interesting">"Flesh" i "Fircyk" :D</span>
+        </p>
+        <div class="container">
+            <table class="table" id="Moje_ulubione_filmy">
+                <caption class="table__caption">Moje ulubione filmy</caption>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header"  scope="col">Tytuł</th>
+                    <th class="table__cell table__cell--header"  scope="col">Data premiery w Polsce</th>
+                    <th class="table__cell table__cell--header"  scope="col">Reżyseria</th>
+                    <th class="table__cell table__cell--header"  scope="col">Scenariusz</th>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row">Iron Man</th>
+                    <td class="table__cell">30 kwietnia 2008</td>
+                    <td class="table__cell">Jon Favreau</td>
+                    <td class="table__cell">Mark Fergus,<br>
+                        Hawk Ostby,<br>
+                        Art Marcum,<br>
+                        Matt Holloway<br> </td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header"  scope="row">Incredible Hulk</th>
+                    <td class="table__cell">13 czerwca 2008</td>
+                    <td class="table__cell">Louis Leterrier</td>
+                    <td class="table__cell">Zak Penn</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header"  scope="row">Iron Man 2</th>
+                    <td class="table__cell">30 kwietnia 2010</td>
+                    <td class="table__cell">Jon Favreau</td>
+                    <td class="table__cell">Justin Theroux</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header"  scope="row">Avengers</th>
+                    <td class="table__cell">11 maja 2012</td>
+                    <td class="table__cell" colspan="2">Joss Whedon</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header"  scope="row">Strażnicy Galaktyki</th>
+                    <td class="table__cell">1 sierpnia 2014 </td>
+                    <td class="table__cell">James Gunn</td>
+                    <td class="table__cell">James Gunn,<br>
+                        Nicole Perlman</td>
+                </tr>
+            </table>
+        </div>
+        <div class="container">
+            <table class="table" id="Moje_ulubione_książki">
+                <caption class="table__caption">Moje ulubione książki</caption>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="col">Tytuł</th>
+                    <th class="table__cell table__cell--header" scope="col">Autor</th>
+                    <th class="table__cell table__cell--header" scope="col">Rok wydania</th>
+                    <th class="table__cell table__cell--header" scope="col">Wydawnictwo</th>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row">Otchłań zła</th>
+                    <td class="table__cell" rowspan="3">Maxime Chattam</td>
+                    <td class="table__cell" rowspan="3">2018</td>
+                    <td class="table__cell" rowspan="3">Sonia Draga</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row">W ciemnościach strachu</th>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row">Diabelskie zaklęcie</th>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row">Efekt Lucyfera</th>
+                    <td class="table__cell">Philip G Zimbardo</td>
+                    <td class="table__cell">2017</td>
+                    <td class="table__cell">Naukowe PWN</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row">Pragnienie</th>
+                    <td class="table__cell">Jo Nesbo</td>
+                    <td class="table__cell">2017</td>
+                    <td class="table__cell">Dolnośląskie</td>
+                </tr>
+            </table>
+        </div>
+        <aside class="aside" id="Powiązane_linki">
+            <h2 class="aside__header">Powiązane linki</h2>
+            <ul class="aside__unlist">
+                <li>
+                    <a rel="noreferrer noopener" target="_blank" class="aside__link"
+                        href="https://www.taniaksiazka.pl/trylogia-zla-tom-1-otchlan-zla-maxime-chattam-p-973006.html"
+                        title="Przekierowanie do strony tania_książka">
+                        Otchłań zła</a>
+                </li>
+                <li>
+                    <a rel="noreferrer noopener" target="_blank" class="aside__link"
+                        href="https://www.taniaksiazka.pl/trylogia-zla-tom-2-w-ciemnosciach-strachu-maxime-chattam-p-990858.html"
+                        title="Przekierowanie do strony tania_książka">
+                        W ciemnościach strachu</a>
+                </li>
+                <li>
+                    <a rel="noreferrer noopener" target="_blank" class="aside__link"
+                        href="https://www.taniaksiazka.pl/trylogia-zla-tom-3-diabelskie-zaklecia-maxime-chattam-p-1008824.html"
+                        title="Przekierowanie do strony tania_książka">
+                        Diabelskie zaklęcie</a>
+                </li>
+                <li>
+                    <a rel="noreferrer noopener" target="_blank" class="aside__link"
+                        href="https://www.empik.com/efekt-lucyfera-zimbardo-philip,p1148751582,ksiazka-p"
+                        title="Przekierowanie do strony empik">Efekt Lucyfera</a>
+                </li>
+                <li>
+                    <a rel="noreferrer noopener" target="_blank" class="aside__link"
+                        href="https://www.empik.com/pragnienie-nesbo-jo,p1136192935,ksiazka-p"
+                        title="Przekierowanie do strony empik">
+                        Pragnienie</a>
+                </li>
+            </ul>
+        </aside>
+        <p>
+        <!-- below button changes the background of the page -->
+            <button class="button button--background">Włącz <span class="changeName">ciemny</span> motyw</button>
+        </p>
+    </main>
+    <footer>
+        <p class="footer">
+            Copyright 2022 by Katarzyna Forysiak - wszystkie prawa zastrzeżone
+        </p>
+    </footer>
+</body>
+</html>

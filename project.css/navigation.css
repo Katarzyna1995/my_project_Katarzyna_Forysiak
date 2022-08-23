@@ -1,0 +1,44 @@
+.navigation {
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    border-width: 2px;
+    border-color: red;
+    border-style: solid;
+    background-color: rgb(248, 248, 248);
+    max-width: 1000px;
+    margin: 10px auto;
+}
+.navigation__list {
+    padding: 10px;
+}
+.navigation__item {
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    padding: 5px 5px;
+    line-height: 2;
+}
+.navigation__link {
+    color: crimson;
+    text-decoration: none;
+    font-size: large;
+}
+/* pseudoklasa - stylowanie linków */
+.navigation__link:visited {                    
+    color: darkred;
+}
+/* pseudoklasa - stylowanie linków */
+.navigation__link:focus {
+    outline: 2px solid currentColor;
+}
+/* pseudoklasa - stylowanie linków */
+.navigation__link:hover {
+    color: red;
+    border-bottom: 1px solid;
+    outline: none;
+}
+/* pseudoklasa - stylowanie linków */
+.navigation__link:active {
+    color: rgb(0, 17, 255);
+}
