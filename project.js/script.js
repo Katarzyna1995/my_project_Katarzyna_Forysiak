@@ -1,4 +1,4 @@
-console.log ("hej")
+console.log ("Hello everyone:) Thank you very much for visiting my website :)")
 
 let button = document.querySelector(".button")
 let zdjecie = document.querySelector(".photo")
