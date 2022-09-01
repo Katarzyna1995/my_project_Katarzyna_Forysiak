@@ -1,6 +1,8 @@
 const welcome = () => {
     console.log ("Hello everyone:) Thank you very much for visiting my website :)")  
 }
+welcome ();
+
 let button = document.querySelector(".button")
 let zdjecie = document.querySelector(".photo")
 
